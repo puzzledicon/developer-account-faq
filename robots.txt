@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://puzzledicon.github.io/developer-account-faq/sitemap.xml
