@@ -1,0 +1,161 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e3]:
+    - link "Skip to content" [ref=f4e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f4e8]:
+      - generic [ref=f4e9]:
+        - generic [ref=f4e10]:
+          - button "Open menu" [ref=f4e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f4e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f4e18]:
+          - navigation "Breadcrumbs" [ref=f4e19]:
+            - list [ref=f4e20]:
+              - listitem [ref=f4e21]:
+                - link "Dashboard" [ref=f4e22] [cursor=pointer]:
+                  - /url: https://github.com/
+          - button "Open quick search dialog, type / to search" [ref=f4e26] [cursor=pointer]:
+            - generic [ref=f4e28]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f4e29]:
+          - generic [ref=f4e30]:
+            - generic [ref=f4e33]:
+              - link "Chat with Copilot" [ref=f4e35] [cursor=pointer]:
+                - /url: /copilot
+              - button "Open Copilot…" [ref=f4e40] [cursor=pointer]
+            - button "Create new..." [ref=f4e42] [cursor=pointer]
+            - generic [ref=f4e44]:
+              - link "All issues (g then i)" [ref=f4e45] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests (g then p)" [ref=f4e49] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f4e52] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f4e55] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f4e59] [cursor=pointer]:
+            - img "puzzledicon" [ref=f4e60]
+  - generic [ref=f4e64]:
+    - complementary "Dashboard menu" [ref=f4e65]:
+      - generic [ref=f4e67]:
+        - navigation "Site navigation" [ref=f4e70]:
+          - list [ref=f4e72]:
+            - listitem [ref=f4e73]:
+              - link "Home" [ref=f4e74] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f4e76]:
+              - link "Feed" [ref=f4e77] [cursor=pointer]:
+                - /url: /feed
+        - separator [ref=f4e79]
+    - generic [ref=f4e83]:
+      - generic [ref=f4e85]:
+        - main [ref=f4e87]:
+          - generic [ref=f4e89]:
+            - heading "Dashboard" [level=1] [ref=f4e90]
+            - button "Dashboard preview options" [ref=f4e94] [cursor=pointer]:
+              - generic [ref=f4e95]: Preview
+            - generic [ref=f4e98]:
+              - generic [ref=f4e102]:
+                - generic [ref=f4e103]: Good evening, puzzledicon!
+                - heading "Copilot" [level=2] [ref=f4e110]
+                - generic [ref=f4e114]:
+                  - status [ref=f4e115]
+                  - textbox "Ask anything or type @ to add context with Copilot" [ref=f4e118]:
+                    - /placeholder: Ask anything or type @ to add context
+                  - generic [ref=f4e119]:
+                    - button "Ask" [ref=f4e122] [cursor=pointer]
+                    - generic [ref=f4e125]:
+                      - button "Select repositories to attach to conversation" [ref=f4e126] [cursor=pointer]:
+                        - generic "All repositories" [ref=f4e129]
+                      - button "Add files, and spaces" [ref=f4e130] [cursor=pointer]
+                    - generic [ref=f4e133]:
+                      - button "View token usage" [ref=f4e134] [cursor=pointer]
+                      - button "Send now (enter)" [ref=f4e138] [cursor=pointer]
+                - heading "Chat commands" [level=2] [ref=f4e141]
+                - list [ref=f4e143]:
+                  - listitem [ref=f4e144]:
+                    - button "Debug" [ref=f4e145] [cursor=pointer]
+                  - listitem [ref=f4e148]:
+                    - button "Agent" [ref=f4e149] [cursor=pointer]
+                  - listitem [ref=f4e152]:
+                    - button "Create issue" [ref=f4e153] [cursor=pointer]
+                  - listitem [ref=f4e156]:
+                    - button "Write code" [ref=f4e157] [cursor=pointer]
+                  - listitem [ref=f4e160]:
+                    - button "Git" [ref=f4e161] [cursor=pointer]
+                  - listitem [ref=f4e164]:
+                    - button "Pull requests" [ref=f4e165] [cursor=pointer]
+              - generic [ref=f4e169]:
+                - generic [ref=f4e171]:
+                  - heading "Agent sessions" [level=2] [ref=f4e173]
+                  - list "Agent sessions" [ref=f4e175]:
+                    - listitem [ref=f4e176]
+                    - listitem [ref=f4e180]
+                    - listitem [ref=f4e184]
+                - generic [ref=f4e189]:
+                  - generic [ref=f4e190]:
+                    - heading "Pull requests" [level=2] [ref=f4e191]
+                    - generic [ref=f4e193]:
+                      - link "View all pull requests" [ref=f4e194] [cursor=pointer]:
+                        - /url: /pulls
+                        - text: View all
+                        - generic [ref=f4e195]: pull requests
+                      - button "Pull request options" [ref=f4e196] [cursor=pointer]
+                  - list "Pull requests" [ref=f4e199]:
+                    - listitem [ref=f4e200]
+                    - listitem [ref=f4e204]
+                    - listitem [ref=f4e208]
+                - generic [ref=f4e213]:
+                  - generic [ref=f4e214]:
+                    - heading "Issues" [level=2] [ref=f4e215]
+                    - generic [ref=f4e217]:
+                      - link "View all issues" [ref=f4e218] [cursor=pointer]:
+                        - /url: /issues
+                        - text: View all
+                        - generic [ref=f4e219]: issues
+                      - button "Issue options" [ref=f4e220] [cursor=pointer]
+                  - list "Issues" [ref=f4e223]:
+                    - listitem [ref=f4e224]
+                    - listitem [ref=f4e228]
+                    - listitem [ref=f4e232]
+        - complementary "Explore" [ref=f4e236]:
+          - img "GitHub Universe Banner" [ref=f4e239]
+          - generic [ref=f4e240]: Loading
+      - contentinfo [ref=f4e247]:
+        - heading "Footer" [level=2] [ref=f4e248]
+        - generic [ref=f4e249]:
+          - generic [ref=f4e250]:
+            - link "GitHub Homepage" [ref=f4e251] [cursor=pointer]:
+              - /url: https://github.com
+            - generic [ref=f4e254]: © 2026 GitHub, Inc.
+          - navigation "Footer" [ref=f4e255]:
+            - heading "Footer navigation" [level=3] [ref=f4e256]
+            - list "Footer navigation" [ref=f4e257]:
+              - listitem [ref=f4e258]:
+                - link "Terms" [ref=f4e259] [cursor=pointer]:
+                  - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+              - listitem [ref=f4e260]:
+                - link "Privacy" [ref=f4e261] [cursor=pointer]:
+                  - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+              - listitem [ref=f4e262]:
+                - link "Security" [ref=f4e263] [cursor=pointer]:
+                  - /url: https://github.com/security
+              - listitem [ref=f4e264]:
+                - link "Status" [ref=f4e265] [cursor=pointer]:
+                  - /url: https://www.githubstatus.com/
+              - listitem [ref=f4e266]:
+                - link "Community" [ref=f4e267] [cursor=pointer]:
+                  - /url: https://github.community/
+              - listitem [ref=f4e268]:
+                - link "Docs" [ref=f4e269] [cursor=pointer]:
+                  - /url: https://docs.github.com/
+              - listitem [ref=f4e270]:
+                - link "Contact" [ref=f4e271] [cursor=pointer]:
+                  - /url: https://support.github.com?tags=dotcom-footer
+              - listitem [ref=f4e272]:
+                - button "Manage cookies" [ref=f4e274] [cursor=pointer]
+              - listitem [ref=f4e275]:
+                - button "Do not share my personal information" [ref=f4e277] [cursor=pointer]

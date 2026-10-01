@@ -1,0 +1,879 @@
+- generic [ref=f7e2]:
+  - generic [ref=f7e3]:
+    - link "Skip to content" [ref=f7e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f7e8]:
+      - generic [ref=f7e9]:
+        - generic [ref=f7e10]:
+          - button "Open menu" [ref=f7e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f7e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f7e18]:
+          - navigation "Breadcrumbs" [ref=f7e19]:
+            - list [ref=f7e20]:
+              - listitem [ref=f7e21]:
+                - link "puzzledicon" [ref=f7e22] [cursor=pointer]:
+                  - /url: /puzzledicon
+          - button "Open quick search dialog, type / to search" [ref=f7e26] [cursor=pointer]:
+            - generic [ref=f7e28]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f7e29]:
+          - generic [ref=f7e30]:
+            - generic [ref=f7e33]:
+              - link "Chat with Copilot" [ref=f7e35] [cursor=pointer]:
+                - /url: /copilot
+              - button "Open Copilot…" [ref=f7e40] [cursor=pointer]
+            - button "Create new..." [ref=f7e42] [cursor=pointer]
+            - generic [ref=f7e44]:
+              - link "All issues (g then i)" [ref=f7e45] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests (g then p)" [ref=f7e49] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f7e52] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f7e55] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f7e59] [cursor=pointer]:
+            - img "puzzledicon" [ref=f7e60]
+      - heading "User navigation" [level=2] [ref=f7e61]
+      - navigation "User" [ref=f7e62]:
+        - list [ref=f7e63]:
+          - listitem [ref=f7e64]:
+            - link "Overview" [ref=f7e65] [cursor=pointer]:
+              - /url: /puzzledicon
+          - listitem [ref=f7e70]:
+            - link "Repositories (11)" [ref=f7e71] [cursor=pointer]:
+              - /url: /puzzledicon?tab=repositories
+              - generic [ref=f7e75]: Repositories
+              - generic [ref=f7e76]:
+                - generic [aria-hidden] [ref=f7e77]: "11"
+                - generic [ref=f7e78]: (11)
+          - listitem [ref=f7e79]:
+            - link "Projects" [ref=f7e80] [cursor=pointer]:
+              - /url: /puzzledicon?tab=projects
+          - listitem [ref=f7e85]:
+            - link "Packages" [ref=f7e86] [cursor=pointer]:
+              - /url: /puzzledicon?tab=packages
+          - listitem [ref=f7e91]:
+            - link "Stars" [ref=f7e92] [cursor=pointer]:
+              - /url: /puzzledicon?tab=stars
+  - main [ref=f7e99]:
+    - generic [ref=f7e101]:
+      - generic [ref=f7e104]:
+        - generic [ref=f7e105]:
+          - generic [ref=f7e106]:
+            - link "Change your avatar" [ref=f7e108] [cursor=pointer]:
+              - /url: https://github.com/account
+            - button "Set status" [ref=f7e113] [cursor=pointer]
+          - heading "puzzledicon puzzledicon" [level=1] [ref=f7e122]:
+            - generic [ref=f7e123]: puzzledicon
+            - generic [ref=f7e124]: puzzledicon
+        - generic [ref=f7e126]:
+          - generic [ref=f7e127]: Google Play / Apple 开发者流程笔记：注册、验证、内购与上架对照整理
+          - button "Edit profile" [ref=f7e130] [cursor=pointer]
+          - list [ref=f7e131]:
+            - 'listitem "Organization: Open Guides" [ref=f7e132]':
+              - generic [ref=f7e135]: Open Guides
+            - 'listitem "Home location: Developer Guides" [ref=f7e137]':
+              - generic [ref=f7e140]: Developer Guides
+            - listitem [ref=f7e141]:
+              - link "https://playconsoleacc.com/" [ref=f7e144] [cursor=pointer]:
+                - /url: https://playconsoleacc.com/
+      - generic [ref=f7e147]:
+        - generic [ref=f7e149]:
+          - generic [ref=f7e150]:
+            - generic [ref=f7e151]:
+              - link "puzzledicon" [ref=f7e152] [cursor=pointer]:
+                - /url: /puzzledicon/puzzledicon
+              - generic [ref=f7e153]: /
+              - text: README.md
+            - link "Edit your profile readme file" [ref=f7e155] [cursor=pointer]:
+              - /url: /puzzledicon/puzzledicon/edit/main/README.md
+          - article [ref=f7e158]:
+            - generic [ref=f7e159]:
+              - heading [level=3] [ref=f7e160]:
+                - text: Hi, I'm
+                - strong [ref=f7e161]: puzzledicon
+              - 'link "Permalink: Hi, I''m puzzledicon" [ref=f7e162] [cursor=pointer]':
+                - /url: "#hi-im-puzzledicon"
+            - paragraph [ref=f7e165]:
+              - text: Google Play / Apple 开发者流程笔记：
+              - strong [ref=f7e166]: 如何注册 · 如何验证 · 如何开通内购 · 如何准备上架
+            - paragraph [ref=f7e167]: 把后台里容易卡关的步骤，整理成可检索的短文与清单，方便对照操作。
+            - separator [ref=f7e168]
+            - generic [ref=f7e169]:
+              - heading "Featured guides" [level=3] [ref=f7e170]
+              - 'link "Permalink: Featured guides" [ref=f7e171] [cursor=pointer]':
+                - /url: "#featured-guides"
+            - table [ref=f7e175]:
+              - rowgroup [ref=f7e176]:
+                - row [ref=f7e177]:
+                  - columnheader "Guide" [ref=f7e178]
+                  - columnheader "Repo" [ref=f7e179]
+                  - columnheader "Read online" [ref=f7e180]
+              - rowgroup [ref=f7e181]:
+                - row [ref=f7e182]:
+                  - cell "Play 账号注册 / 验证" [ref=f7e183]
+                  - cell [ref=f7e184]:
+                    - link "google-play-developer-account" [ref=f7e185] [cursor=pointer]:
+                      - /url: https://github.com/puzzledicon/google-play-developer-account
+                  - cell [ref=f7e186]:
+                    - link "Pages" [ref=f7e187] [cursor=pointer]:
+                      - /url: https://puzzledicon.github.io/google-play-developer-account/
+                - row [ref=f7e188]:
+                  - cell "Apple Developer 注册" [ref=f7e189]
+                  - cell [ref=f7e190]:
+                    - link "apple-developer-account" [ref=f7e191] [cursor=pointer]:
+                      - /url: https://github.com/puzzledicon/apple-developer-account
+                  - cell [ref=f7e192]:
+                    - link "Pages" [ref=f7e193] [cursor=pointer]:
+                      - /url: https://puzzledicon.github.io/apple-developer-account/
+                - row [ref=f7e194]:
+                  - cell "封闭测试 12×14" [ref=f7e195]
+                  - cell [ref=f7e196]:
+                    - link "play-closed-testing-12x14" [ref=f7e197] [cursor=pointer]:
+                      - /url: https://github.com/puzzledicon/play-closed-testing-12x14
+                  - cell [ref=f7e198]:
+                    - link "Pages" [ref=f7e199] [cursor=pointer]:
+                      - /url: https://puzzledicon.github.io/play-closed-testing-12x14/
+                - row [ref=f7e200]:
+                  - cell "Play 上架与内购" [ref=f7e201]
+                  - cell [ref=f7e202]:
+                    - link "play-app-publishing" [ref=f7e203] [cursor=pointer]:
+                      - /url: https://github.com/puzzledicon/play-app-publishing
+                  - cell [ref=f7e204]:
+                    - link "Pages" [ref=f7e205] [cursor=pointer]:
+                      - /url: https://puzzledicon.github.io/play-app-publishing/
+                - row [ref=f7e206]:
+                  - cell "App Store 上架与内购" [ref=f7e207]
+                  - cell [ref=f7e208]:
+                    - link "apple-app-store-publishing" [ref=f7e209] [cursor=pointer]:
+                      - /url: https://github.com/puzzledicon/apple-app-store-publishing
+                  - cell [ref=f7e210]:
+                    - link "Pages" [ref=f7e211] [cursor=pointer]:
+                      - /url: https://puzzledicon.github.io/apple-app-store-publishing/
+                - row [ref=f7e212]:
+                  - cell "邓白氏 / 税号材料" [ref=f7e213]
+                  - cell [ref=f7e214]:
+                    - link "duns-tax-id-guides" [ref=f7e215] [cursor=pointer]:
+                      - /url: https://github.com/puzzledicon/duns-tax-id-guides
+                  - cell [ref=f7e216]:
+                    - link "Pages" [ref=f7e217] [cursor=pointer]:
+                      - /url: https://puzzledicon.github.io/duns-tax-id-guides/
+                - row [ref=f7e218]:
+                  - cell "政策节点对照" [ref=f7e219]
+                  - cell [ref=f7e220]:
+                    - link "play-policy-2026" [ref=f7e221] [cursor=pointer]:
+                      - /url: https://github.com/puzzledicon/play-policy-2026
+                  - cell [ref=f7e222]:
+                    - link "Pages" [ref=f7e223] [cursor=pointer]:
+                      - /url: https://puzzledicon.github.io/play-policy-2026/
+                - row [ref=f7e224]:
+                  - cell "高频 FAQ" [ref=f7e225]
+                  - cell [ref=f7e226]:
+                    - link "developer-account-faq" [ref=f7e227] [cursor=pointer]:
+                      - /url: https://github.com/puzzledicon/developer-account-faq
+                  - cell [ref=f7e228]:
+                    - link "Pages" [ref=f7e229] [cursor=pointer]:
+                      - /url: https://puzzledicon.github.io/developer-account-faq/
+            - separator [ref=f7e230]
+            - generic [ref=f7e231]:
+              - heading "Learning path" [level=3] [ref=f7e232]
+              - 'link "Permalink: Learning path" [ref=f7e233] [cursor=pointer]':
+                - /url: "#learning-path"
+            - generic [ref=f7e236]:
+              - code [ref=f7e238]: 选型注册 → 身份验证 → 付款/协议 → 开通内购 → 测试 → 提审发布
+              - button "Copy code to clipboard" [ref=f7e240] [cursor=pointer]
+            - list [ref=f7e244]:
+              - listitem [ref=f7e245]:
+                - text: 第一次开通：从
+                - strong [ref=f7e246]: google-play-developer-account
+                - text: /
+                - strong [ref=f7e247]: apple-developer-account
+                - text: 开始
+              - listitem [ref=f7e248]: 需要付费能力：看各仓库里的「如何开通内购」短文
+              - listitem [ref=f7e249]:
+                - text: 个人号正式发布：先看
+                - strong [ref=f7e250]: play-closed-testing-12x14
+            - generic [ref=f7e251]:
+              - heading "Also useful" [level=3] [ref=f7e252]
+              - 'link "Permalink: Also useful" [ref=f7e253] [cursor=pointer]':
+                - /url: "#also-useful"
+            - paragraph [ref=f7e256]: 中文图文步骤延伸阅读：
+            - list [ref=f7e257]:
+              - listitem [ref=f7e258]:
+                - link "playconsoleacc.com" [ref=f7e259] [cursor=pointer]:
+                  - /url: https://playconsoleacc.com/
+              - listitem [ref=f7e260]:
+                - link "dev388.com" [ref=f7e261] [cursor=pointer]:
+                  - /url: https://dev388.com/
+            - separator [ref=f7e262]
+            - generic [ref=f7e263]:
+              - heading "Note" [level=3] [ref=f7e264]
+              - 'link "Permalink: Note" [ref=f7e265] [cursor=pointer]':
+                - /url: "#note"
+            - paragraph [ref=f7e268]: 内容用于流程对照与学习整理；费用、材料与审核结果以 Google Play Console / App Store Connect 及帮助中心当前页面为准。
+            - paragraph [ref=f7e269]: 如果对你有帮助，欢迎 Star。
+        - generic [ref=f7e271]:
+          - generic [ref=f7e272]:
+            - button "Customize your pins" [ref=f7e273] [cursor=pointer]
+            - dialog [ref=f7e898]:
+              - generic [ref=f7e900]:
+                - heading "Edit pinned items" [level=1] [ref=f7e902]
+                - button "Close" [ref=f7e904] [cursor=pointer]
+              - generic [ref=f7e910]:
+                - paragraph [ref=f7e911]: Select up to six public repositories or gists you'd like to show to anyone.
+                - generic [ref=f7e912]:
+                  - searchbox "Filter repositories" [ref=f7e915]
+                  - list [ref=f7e920]:
+                    - listitem [ref=f7e921]:
+                      - checkbox "public repo apple-app-store-publishing 0 stars" [ref=f7e922]
+                      - generic [ref=f7e923]:
+                        - img "public repo" [ref=f7e924]
+                        - strong [ref=f7e926]: apple-app-store-publishing
+                        - generic [ref=f7e927]:
+                          - text: "0"
+                          - img "stars" [ref=f7e928]
+                    - listitem [ref=f7e930]:
+                      - checkbox "public repo apple-developer-account 0 stars" [ref=f7e931]
+                      - generic [ref=f7e932]:
+                        - img "public repo" [ref=f7e933]
+                        - strong [ref=f7e935]: apple-developer-account
+                        - generic [ref=f7e936]:
+                          - text: "0"
+                          - img "stars" [ref=f7e937]
+                    - listitem [ref=f7e939]:
+                      - checkbox "public repo developer-account-faq 0 stars" [ref=f7e940]
+                      - generic [ref=f7e941]:
+                        - img "public repo" [ref=f7e942]
+                        - strong [ref=f7e944]: developer-account-faq
+                        - generic [ref=f7e945]:
+                          - text: "0"
+                          - img "stars" [ref=f7e946]
+                    - listitem [ref=f7e948]:
+                      - checkbox "public repo duns-tax-id-guides 0 stars" [ref=f7e949]
+                      - generic [ref=f7e950]:
+                        - img "public repo" [ref=f7e951]
+                        - strong [ref=f7e953]: duns-tax-id-guides
+                        - generic [ref=f7e954]:
+                          - text: "0"
+                          - img "stars" [ref=f7e955]
+                    - listitem [ref=f7e957]:
+                      - checkbox "public repo google-play-developer-account 0 stars" [ref=f7e958]
+                      - generic [ref=f7e959]:
+                        - img "public repo" [ref=f7e960]
+                        - strong [ref=f7e962]: google-play-developer-account
+                        - generic [ref=f7e963]:
+                          - text: "0"
+                          - img "stars" [ref=f7e964]
+                    - listitem [ref=f7e966]:
+                      - checkbox "public repo play-app-publishing 0 stars" [ref=f7e967]
+                      - generic [ref=f7e968]:
+                        - img "public repo" [ref=f7e969]
+                        - strong [ref=f7e971]: play-app-publishing
+                        - generic [ref=f7e972]:
+                          - text: "0"
+                          - img "stars" [ref=f7e973]
+                    - listitem [ref=f7e975]:
+                      - checkbox "public repo play-closed-testing-12x14 0 stars" [ref=f7e976]
+                      - generic [ref=f7e977]:
+                        - img "public repo" [ref=f7e978]
+                        - strong [ref=f7e980]: play-closed-testing-12x14
+                        - generic [ref=f7e981]:
+                          - text: "0"
+                          - img "stars" [ref=f7e982]
+                    - listitem [ref=f7e984]:
+                      - checkbox "public repo play-policy-2026 0 stars" [ref=f7e985]
+                      - generic [ref=f7e986]:
+                        - img "public repo" [ref=f7e987]
+                        - strong [ref=f7e989]: play-policy-2026
+                        - generic [ref=f7e990]:
+                          - text: "0"
+                          - img "stars" [ref=f7e991]
+                    - listitem [ref=f7e993]:
+                      - checkbox "public repo puzzledicon 0 stars" [ref=f7e994]
+                      - generic [ref=f7e995]:
+                        - img "public repo" [ref=f7e996]
+                        - strong [ref=f7e998]: puzzledicon
+                        - generic [ref=f7e999]:
+                          - text: "0"
+                          - img "stars" [ref=f7e1000]
+                    - listitem [ref=f7e1002]:
+                      - checkbox "public repo repo-24thayz2 0 stars" [ref=f7e1003]
+                      - generic [ref=f7e1004]:
+                        - img "public repo" [ref=f7e1005]
+                        - strong [ref=f7e1007]: repo-24thayz2
+                        - generic [ref=f7e1008]:
+                          - text: "0"
+                          - img "stars" [ref=f7e1009]
+                    - listitem [ref=f7e1011]:
+                      - checkbox "public repo repo-5b1oop4x 0 stars" [ref=f7e1012]
+                      - generic [ref=f7e1013]:
+                        - img "public repo" [ref=f7e1014]
+                        - strong [ref=f7e1016]: repo-5b1oop4x
+                        - generic [ref=f7e1017]:
+                          - text: "0"
+                          - img "stars" [ref=f7e1018]
+                - generic [ref=f7e1020]: 6 remaining
+              - button "Save pins" [disabled] [ref=f7e1023]
+          - heading "Popular repositories Loading" [level=2] [ref=f7e276]:
+            - text: Popular repositories
+            - generic: Loading
+            - status
+          - list [ref=f7e278]:
+            - listitem [ref=f7e279]:
+              - generic [ref=f7e281]:
+                - generic [ref=f7e282]:
+                  - link "repo-5b1oop4x" [ref=f7e284] [cursor=pointer]:
+                    - /url: /puzzledicon/repo-5b1oop4x
+                  - generic [ref=f7e285]: Public
+                - paragraph
+                - paragraph
+            - listitem [ref=f7e287]:
+              - generic [ref=f7e289]:
+                - generic [ref=f7e290]:
+                  - link "repo-24thayz2" [ref=f7e292] [cursor=pointer]:
+                    - /url: /puzzledicon/repo-24thayz2
+                  - generic [ref=f7e293]: Public
+                - paragraph
+                - paragraph
+            - listitem [ref=f7e295]:
+              - generic [ref=f7e297]:
+                - generic [ref=f7e298]:
+                  - link "google-play-developer-account" [ref=f7e300] [cursor=pointer]:
+                    - /url: /puzzledicon/google-play-developer-account
+                  - generic [ref=f7e301]: Public
+                - paragraph [ref=f7e303]: Google Play 开发者账号：如何注册、验证与开通准备
+                - paragraph [ref=f7e304]:
+                  - generic [ref=f7e305]: HTML
+            - listitem [ref=f7e307]:
+              - generic [ref=f7e309]:
+                - generic [ref=f7e310]:
+                  - link "apple-developer-account" [ref=f7e312] [cursor=pointer]:
+                    - /url: /puzzledicon/apple-developer-account
+                  - generic [ref=f7e313]: Public
+                - paragraph [ref=f7e315]: Apple Developer：如何 Enrollment、协议与内购准备
+                - paragraph [ref=f7e316]:
+                  - generic [ref=f7e317]: HTML
+            - listitem [ref=f7e319]:
+              - generic [ref=f7e321]:
+                - generic [ref=f7e322]:
+                  - link "play-closed-testing-12x14" [ref=f7e324] [cursor=pointer]:
+                    - /url: /puzzledicon/play-closed-testing-12x14
+                  - generic [ref=f7e325]: Public
+                - paragraph [ref=f7e327]: Google Play 封闭测试 12×14：如何达标并申请正式版权限
+                - paragraph [ref=f7e328]:
+                  - generic [ref=f7e329]: HTML
+            - listitem [ref=f7e331]:
+              - generic [ref=f7e333]:
+                - generic [ref=f7e334]:
+                  - link "duns-tax-id-guides" [ref=f7e336] [cursor=pointer]:
+                    - /url: /puzzledicon/duns-tax-id-guides
+                  - generic [ref=f7e337]: Public
+                - paragraph [ref=f7e339]: 组织账号材料：D-U-N-S 与税号信息对齐清单
+                - paragraph [ref=f7e340]:
+                  - generic [ref=f7e341]: HTML
+        - generic [ref=f7e383]:
+          - generic [ref=f7e384]:
+            - generic [ref=f7e386]:
+              - button "Contribution settings" [ref=f7e389] [cursor=pointer]
+              - heading "55 contributions in the last year" [level=2] [ref=f7e392]
+              - link "Skip to contributions year list" [ref=f7e393] [cursor=pointer]:
+                - /url: "#year-link-2026"
+              - generic [ref=f7e395]:
+                - grid [ref=f7e397]:
+                  - caption [ref=f7e398]: Contribution Graph
+                  - rowgroup [ref=f7e399]:
+                    - row [ref=f7e400]:
+                      - gridcell "Day of Week" [ref=f7e401]
+                      - gridcell "October" [ref=f7e403]:
+                        - generic [aria-hidden] [ref=f7e405]: Oct
+                      - gridcell "November" [ref=f7e406]:
+                        - generic [aria-hidden] [ref=f7e408]: Nov
+                      - gridcell "December" [ref=f7e409]:
+                        - generic [aria-hidden] [ref=f7e411]: Dec
+                      - gridcell "January" [ref=f7e412]:
+                        - generic [aria-hidden] [ref=f7e414]: Jan
+                      - gridcell "February" [ref=f7e415]:
+                        - generic [aria-hidden] [ref=f7e417]: Feb
+                      - gridcell "March" [ref=f7e418]:
+                        - generic [aria-hidden] [ref=f7e420]: Mar
+                      - gridcell "April" [ref=f7e421]:
+                        - generic [aria-hidden] [ref=f7e423]: Apr
+                      - gridcell "May" [ref=f7e424]:
+                        - generic [aria-hidden] [ref=f7e426]: May
+                      - gridcell "June" [ref=f7e427]:
+                        - generic [aria-hidden] [ref=f7e429]: Jun
+                      - gridcell "July" [ref=f7e430]:
+                        - generic [aria-hidden] [ref=f7e432]: Jul
+                      - gridcell "August" [ref=f7e433]:
+                        - generic [aria-hidden] [ref=f7e435]: Aug
+                      - gridcell "September" [ref=f7e436]:
+                        - generic [aria-hidden] [ref=f7e438]: Sep
+                  - rowgroup [ref=f7e439]:
+                    - row [ref=f7e440]:
+                      - gridcell "Sunday" [ref=f7e441]:
+                        - generic [aria-hidden] [ref=f7e443]: Sun
+                      - gridcell "No contributions on September 28th." [ref=f7e444]
+                      - gridcell "No contributions on October 5th." [ref=f7e445]
+                      - gridcell "No contributions on October 12th." [ref=f7e446]
+                      - gridcell "No contributions on October 19th." [ref=f7e447]
+                      - gridcell "No contributions on October 26th." [ref=f7e448]
+                      - gridcell "No contributions on November 2nd." [ref=f7e449]
+                      - gridcell "No contributions on November 9th." [ref=f7e450]
+                      - gridcell "No contributions on November 16th." [ref=f7e451]
+                      - gridcell "No contributions on November 23rd." [ref=f7e452]
+                      - gridcell "No contributions on November 30th." [ref=f7e453]
+                      - gridcell "No contributions on December 7th." [ref=f7e454]
+                      - gridcell "No contributions on December 14th." [ref=f7e455]
+                      - gridcell "No contributions on December 21st." [ref=f7e456]
+                      - gridcell "No contributions on December 28th." [ref=f7e457]
+                      - gridcell "No contributions on January 4th." [ref=f7e458]
+                      - gridcell "No contributions on January 11th." [ref=f7e459]
+                      - gridcell "No contributions on January 18th." [ref=f7e460]
+                      - gridcell "No contributions on January 25th." [ref=f7e461]
+                      - gridcell "No contributions on February 1st." [ref=f7e462]
+                      - gridcell "No contributions on February 8th." [ref=f7e463]
+                      - gridcell "No contributions on February 15th." [ref=f7e464]
+                      - gridcell "No contributions on February 22nd." [ref=f7e465]
+                      - gridcell "No contributions on March 1st." [ref=f7e466]
+                      - gridcell "No contributions on March 8th." [ref=f7e467]
+                      - gridcell "No contributions on March 15th." [ref=f7e468]
+                      - gridcell "No contributions on March 22nd." [ref=f7e469]
+                      - gridcell "No contributions on March 29th." [ref=f7e470]
+                      - gridcell "No contributions on April 5th." [ref=f7e471]
+                      - gridcell "No contributions on April 12th." [ref=f7e472]
+                      - gridcell "No contributions on April 19th." [ref=f7e473]
+                      - gridcell "No contributions on April 26th." [ref=f7e474]
+                      - gridcell "No contributions on May 3rd." [ref=f7e475]
+                      - gridcell "No contributions on May 10th." [ref=f7e476]
+                      - gridcell "No contributions on May 17th." [ref=f7e477]
+                      - gridcell "No contributions on May 24th." [ref=f7e478]
+                      - gridcell "No contributions on May 31st." [ref=f7e479]
+                      - gridcell "No contributions on June 7th." [ref=f7e480]
+                      - gridcell "No contributions on June 14th." [ref=f7e481]
+                      - gridcell "No contributions on June 21st." [ref=f7e482]
+                      - gridcell "No contributions on June 28th." [ref=f7e483]
+                      - gridcell "No contributions on July 5th." [ref=f7e484]
+                      - gridcell "No contributions on July 12th." [ref=f7e485]
+                      - gridcell "No contributions on July 19th." [ref=f7e486]
+                      - gridcell "No contributions on July 26th." [ref=f7e487]
+                      - gridcell "No contributions on August 2nd." [ref=f7e488]
+                      - gridcell "No contributions on August 9th." [ref=f7e489]
+                      - gridcell "No contributions on August 16th." [ref=f7e490]
+                      - gridcell "No contributions on August 23rd." [ref=f7e491]
+                      - gridcell "No contributions on August 30th." [ref=f7e492]
+                      - gridcell "No contributions on September 6th." [ref=f7e493]
+                      - gridcell "No contributions on September 13th." [ref=f7e494]
+                      - gridcell "No contributions on September 20th." [ref=f7e495]
+                      - gridcell "No contributions on September 27th." [ref=f7e496]
+                    - row [ref=f7e497]:
+                      - gridcell "Monday" [ref=f7e498]:
+                        - generic [aria-hidden] [ref=f7e500]: Mon
+                      - gridcell "No contributions on September 29th." [ref=f7e501]
+                      - gridcell "No contributions on October 6th." [ref=f7e502]
+                      - gridcell "No contributions on October 13th." [ref=f7e503]
+                      - gridcell "No contributions on October 20th." [ref=f7e504]
+                      - gridcell "No contributions on October 27th." [ref=f7e505]
+                      - gridcell "No contributions on November 3rd." [ref=f7e506]
+                      - gridcell "No contributions on November 10th." [ref=f7e507]
+                      - gridcell "No contributions on November 17th." [ref=f7e508]
+                      - gridcell "No contributions on November 24th." [ref=f7e509]
+                      - gridcell "No contributions on December 1st." [ref=f7e510]
+                      - gridcell "No contributions on December 8th." [ref=f7e511]
+                      - gridcell "No contributions on December 15th." [ref=f7e512]
+                      - gridcell "No contributions on December 22nd." [ref=f7e513]
+                      - gridcell "No contributions on December 29th." [ref=f7e514]
+                      - gridcell "No contributions on January 5th." [ref=f7e515]
+                      - gridcell "No contributions on January 12th." [ref=f7e516]
+                      - gridcell "No contributions on January 19th." [ref=f7e517]
+                      - gridcell "No contributions on January 26th." [ref=f7e518]
+                      - gridcell "No contributions on February 2nd." [ref=f7e519]
+                      - gridcell "No contributions on February 9th." [ref=f7e520]
+                      - gridcell "No contributions on February 16th." [ref=f7e521]
+                      - gridcell "No contributions on February 23rd." [ref=f7e522]
+                      - gridcell "No contributions on March 2nd." [ref=f7e523]
+                      - gridcell "No contributions on March 9th." [ref=f7e524]
+                      - gridcell "No contributions on March 16th." [ref=f7e525]
+                      - gridcell "No contributions on March 23rd." [ref=f7e526]
+                      - gridcell "No contributions on March 30th." [ref=f7e527]
+                      - gridcell "No contributions on April 6th." [ref=f7e528]
+                      - gridcell "No contributions on April 13th." [ref=f7e529]
+                      - gridcell "No contributions on April 20th." [ref=f7e530]
+                      - gridcell "No contributions on April 27th." [ref=f7e531]
+                      - gridcell "No contributions on May 4th." [ref=f7e532]
+                      - gridcell "No contributions on May 11th." [ref=f7e533]
+                      - gridcell "No contributions on May 18th." [ref=f7e534]
+                      - gridcell "No contributions on May 25th." [ref=f7e535]
+                      - gridcell "No contributions on June 1st." [ref=f7e536]
+                      - gridcell "No contributions on June 8th." [ref=f7e537]
+                      - gridcell "No contributions on June 15th." [ref=f7e538]
+                      - gridcell "No contributions on June 22nd." [ref=f7e539]
+                      - gridcell "No contributions on June 29th." [ref=f7e540]
+                      - gridcell "No contributions on July 6th." [ref=f7e541]
+                      - gridcell "No contributions on July 13th." [ref=f7e542]
+                      - gridcell "No contributions on July 20th." [ref=f7e543]
+                      - gridcell "No contributions on July 27th." [ref=f7e544]
+                      - gridcell "No contributions on August 3rd." [ref=f7e545]
+                      - gridcell "No contributions on August 10th." [ref=f7e546]
+                      - gridcell "No contributions on August 17th." [ref=f7e547]
+                      - gridcell "No contributions on August 24th." [ref=f7e548]
+                      - gridcell "No contributions on August 31st." [ref=f7e549]
+                      - gridcell "No contributions on September 7th." [ref=f7e550]
+                      - gridcell "No contributions on September 14th." [ref=f7e551]
+                      - gridcell "No contributions on September 21st." [ref=f7e552]
+                      - gridcell "No contributions on September 28th." [ref=f7e553]
+                    - row [ref=f7e554]:
+                      - gridcell "Tuesday" [ref=f7e555]:
+                        - generic [aria-hidden] [ref=f7e557]: Tue
+                      - gridcell "No contributions on September 30th." [ref=f7e558]
+                      - gridcell "No contributions on October 7th." [ref=f7e559]
+                      - gridcell "No contributions on October 14th." [ref=f7e560]
+                      - gridcell "No contributions on October 21st." [ref=f7e561]
+                      - gridcell "No contributions on October 28th." [ref=f7e562]
+                      - gridcell "No contributions on November 4th." [ref=f7e563]
+                      - gridcell "No contributions on November 11th." [ref=f7e564]
+                      - gridcell "No contributions on November 18th." [ref=f7e565]
+                      - gridcell "No contributions on November 25th." [ref=f7e566]
+                      - gridcell "No contributions on December 2nd." [ref=f7e567]
+                      - gridcell "No contributions on December 9th." [ref=f7e568]
+                      - gridcell "No contributions on December 16th." [ref=f7e569]
+                      - gridcell "No contributions on December 23rd." [ref=f7e570]
+                      - gridcell "No contributions on December 30th." [ref=f7e571]
+                      - gridcell "No contributions on January 6th." [ref=f7e572]
+                      - gridcell "No contributions on January 13th." [ref=f7e573]
+                      - gridcell "No contributions on January 20th." [ref=f7e574]
+                      - gridcell "No contributions on January 27th." [ref=f7e575]
+                      - gridcell "No contributions on February 3rd." [ref=f7e576]
+                      - gridcell "No contributions on February 10th." [ref=f7e577]
+                      - gridcell "No contributions on February 17th." [ref=f7e578]
+                      - gridcell "No contributions on February 24th." [ref=f7e579]
+                      - gridcell "No contributions on March 3rd." [ref=f7e580]
+                      - gridcell "No contributions on March 10th." [ref=f7e581]
+                      - gridcell "No contributions on March 17th." [ref=f7e582]
+                      - gridcell "No contributions on March 24th." [ref=f7e583]
+                      - gridcell "No contributions on March 31st." [ref=f7e584]
+                      - gridcell "No contributions on April 7th." [ref=f7e585]
+                      - gridcell "No contributions on April 14th." [ref=f7e586]
+                      - gridcell "No contributions on April 21st." [ref=f7e587]
+                      - gridcell "No contributions on April 28th." [ref=f7e588]
+                      - gridcell "No contributions on May 5th." [ref=f7e589]
+                      - gridcell "No contributions on May 12th." [ref=f7e590]
+                      - gridcell "No contributions on May 19th." [ref=f7e591]
+                      - gridcell "No contributions on May 26th." [ref=f7e592]
+                      - gridcell "No contributions on June 2nd." [ref=f7e593]
+                      - gridcell "No contributions on June 9th." [ref=f7e594]
+                      - gridcell "No contributions on June 16th." [ref=f7e595]
+                      - gridcell "No contributions on June 23rd." [ref=f7e596]
+                      - gridcell "No contributions on June 30th." [ref=f7e597]
+                      - gridcell "No contributions on July 7th." [ref=f7e598]
+                      - gridcell "No contributions on July 14th." [ref=f7e599]
+                      - gridcell "No contributions on July 21st." [ref=f7e600]
+                      - gridcell "No contributions on July 28th." [ref=f7e601]
+                      - gridcell "No contributions on August 4th." [ref=f7e602]
+                      - gridcell "No contributions on August 11th." [ref=f7e603]
+                      - gridcell "No contributions on August 18th." [ref=f7e604]
+                      - gridcell "No contributions on August 25th." [ref=f7e605]
+                      - gridcell "No contributions on September 1st." [ref=f7e606]
+                      - gridcell "No contributions on September 8th." [ref=f7e607]
+                      - gridcell "No contributions on September 15th." [ref=f7e608]
+                      - gridcell "No contributions on September 22nd." [ref=f7e609]
+                      - gridcell "No contributions on September 29th." [ref=f7e610]
+                    - row [ref=f7e611]:
+                      - gridcell "Wednesday" [ref=f7e612]:
+                        - generic [aria-hidden] [ref=f7e614]: Wed
+                      - gridcell "No contributions on October 1st." [ref=f7e615]
+                      - gridcell "No contributions on October 8th." [ref=f7e616]
+                      - gridcell "No contributions on October 15th." [ref=f7e617]
+                      - gridcell "No contributions on October 22nd." [ref=f7e618]
+                      - gridcell "No contributions on October 29th." [ref=f7e619]
+                      - gridcell "No contributions on November 5th." [ref=f7e620]
+                      - gridcell "No contributions on November 12th." [ref=f7e621]
+                      - gridcell "No contributions on November 19th." [ref=f7e622]
+                      - gridcell "No contributions on November 26th." [ref=f7e623]
+                      - gridcell "No contributions on December 3rd." [ref=f7e624]
+                      - gridcell "No contributions on December 10th." [ref=f7e625]
+                      - gridcell "No contributions on December 17th." [ref=f7e626]
+                      - gridcell "No contributions on December 24th." [ref=f7e627]
+                      - gridcell "No contributions on December 31st." [ref=f7e628]
+                      - gridcell "No contributions on January 7th." [ref=f7e629]
+                      - gridcell "No contributions on January 14th." [ref=f7e630]
+                      - gridcell "No contributions on January 21st." [ref=f7e631]
+                      - gridcell "No contributions on January 28th." [ref=f7e632]
+                      - gridcell "No contributions on February 4th." [ref=f7e633]
+                      - gridcell "No contributions on February 11th." [ref=f7e634]
+                      - gridcell "No contributions on February 18th." [ref=f7e635]
+                      - gridcell "No contributions on February 25th." [ref=f7e636]
+                      - gridcell "No contributions on March 4th." [ref=f7e637]
+                      - gridcell "No contributions on March 11th." [ref=f7e638]
+                      - gridcell "No contributions on March 18th." [ref=f7e639]
+                      - gridcell "No contributions on March 25th." [ref=f7e640]
+                      - gridcell "No contributions on April 1st." [ref=f7e641]
+                      - gridcell "No contributions on April 8th." [ref=f7e642]
+                      - gridcell "No contributions on April 15th." [ref=f7e643]
+                      - gridcell "No contributions on April 22nd." [ref=f7e644]
+                      - gridcell "No contributions on April 29th." [ref=f7e645]
+                      - gridcell "No contributions on May 6th." [ref=f7e646]
+                      - gridcell "No contributions on May 13th." [ref=f7e647]
+                      - gridcell "No contributions on May 20th." [ref=f7e648]
+                      - gridcell "No contributions on May 27th." [ref=f7e649]
+                      - gridcell "No contributions on June 3rd." [ref=f7e650]
+                      - gridcell "No contributions on June 10th." [ref=f7e651]
+                      - gridcell "No contributions on June 17th." [ref=f7e652]
+                      - gridcell "No contributions on June 24th." [ref=f7e653]
+                      - gridcell "No contributions on July 1st." [ref=f7e654]
+                      - gridcell "No contributions on July 8th." [ref=f7e655]
+                      - gridcell "No contributions on July 15th." [ref=f7e656]
+                      - gridcell "No contributions on July 22nd." [ref=f7e657]
+                      - gridcell "No contributions on July 29th." [ref=f7e658]
+                      - gridcell "No contributions on August 5th." [ref=f7e659]
+                      - gridcell "No contributions on August 12th." [ref=f7e660]
+                      - gridcell "No contributions on August 19th." [ref=f7e661]
+                      - gridcell "No contributions on August 26th." [ref=f7e662]
+                      - gridcell "No contributions on September 2nd." [ref=f7e663]
+                      - gridcell "No contributions on September 9th." [ref=f7e664]
+                      - gridcell "No contributions on September 16th." [ref=f7e665]
+                      - gridcell "No contributions on September 23rd." [ref=f7e666]
+                      - gridcell "No contributions on September 30th." [ref=f7e667]
+                    - row [ref=f7e668]:
+                      - gridcell "Thursday" [ref=f7e669]:
+                        - generic [aria-hidden] [ref=f7e671]: Thu
+                      - gridcell "No contributions on October 2nd." [ref=f7e672]
+                      - gridcell "No contributions on October 9th." [ref=f7e673]
+                      - gridcell "No contributions on October 16th." [ref=f7e674]
+                      - gridcell "No contributions on October 23rd." [ref=f7e675]
+                      - gridcell "No contributions on October 30th." [ref=f7e676]
+                      - gridcell "No contributions on November 6th." [ref=f7e677]
+                      - gridcell "No contributions on November 13th." [ref=f7e678]
+                      - gridcell "No contributions on November 20th." [ref=f7e679]
+                      - gridcell "No contributions on November 27th." [ref=f7e680]
+                      - gridcell "No contributions on December 4th." [ref=f7e681]
+                      - gridcell "No contributions on December 11th." [ref=f7e682]
+                      - gridcell "No contributions on December 18th." [ref=f7e683]
+                      - gridcell "No contributions on December 25th." [ref=f7e684]
+                      - gridcell "No contributions on January 1st." [ref=f7e685]
+                      - gridcell "No contributions on January 8th." [ref=f7e686]
+                      - gridcell "No contributions on January 15th." [ref=f7e687]
+                      - gridcell "No contributions on January 22nd." [ref=f7e688]
+                      - gridcell "No contributions on January 29th." [ref=f7e689]
+                      - gridcell "No contributions on February 5th." [ref=f7e690]
+                      - gridcell "No contributions on February 12th." [ref=f7e691]
+                      - gridcell "No contributions on February 19th." [ref=f7e692]
+                      - gridcell "No contributions on February 26th." [ref=f7e693]
+                      - gridcell "No contributions on March 5th." [ref=f7e694]
+                      - gridcell "No contributions on March 12th." [ref=f7e695]
+                      - gridcell "No contributions on March 19th." [ref=f7e696]
+                      - gridcell "No contributions on March 26th." [ref=f7e697]
+                      - gridcell "No contributions on April 2nd." [ref=f7e698]
+                      - gridcell "No contributions on April 9th." [ref=f7e699]
+                      - gridcell "No contributions on April 16th." [ref=f7e700]
+                      - gridcell "No contributions on April 23rd." [ref=f7e701]
+                      - gridcell "No contributions on April 30th." [ref=f7e702]
+                      - gridcell "No contributions on May 7th." [ref=f7e703]
+                      - gridcell "No contributions on May 14th." [ref=f7e704]
+                      - gridcell "No contributions on May 21st." [ref=f7e705]
+                      - gridcell "No contributions on May 28th." [ref=f7e706]
+                      - gridcell "No contributions on June 4th." [ref=f7e707]
+                      - gridcell "No contributions on June 11th." [ref=f7e708]
+                      - gridcell "No contributions on June 18th." [ref=f7e709]
+                      - gridcell "No contributions on June 25th." [ref=f7e710]
+                      - gridcell "No contributions on July 2nd." [ref=f7e711]
+                      - gridcell "No contributions on July 9th." [ref=f7e712]
+                      - gridcell "No contributions on July 16th." [ref=f7e713]
+                      - gridcell "No contributions on July 23rd." [ref=f7e714]
+                      - gridcell "No contributions on July 30th." [ref=f7e715]
+                      - gridcell "No contributions on August 6th." [ref=f7e716]
+                      - gridcell "No contributions on August 13th." [ref=f7e717]
+                      - gridcell "No contributions on August 20th." [ref=f7e718]
+                      - gridcell "No contributions on August 27th." [ref=f7e719]
+                      - gridcell "No contributions on September 3rd." [ref=f7e720]
+                      - gridcell "No contributions on September 10th." [ref=f7e721]
+                      - gridcell "No contributions on September 17th." [ref=f7e722]
+                      - gridcell "No contributions on September 24th." [ref=f7e723]
+                      - gridcell "No contributions on October 1st." [ref=f7e724]
+                    - row [ref=f7e725]:
+                      - gridcell "Friday" [ref=f7e726]:
+                        - generic [aria-hidden] [ref=f7e728]: Fri
+                      - gridcell "No contributions on October 3rd." [ref=f7e729]
+                      - gridcell "No contributions on October 10th." [ref=f7e730]
+                      - gridcell "No contributions on October 17th." [ref=f7e731]
+                      - gridcell "No contributions on October 24th." [ref=f7e732]
+                      - gridcell "No contributions on October 31st." [ref=f7e733]
+                      - gridcell "No contributions on November 7th." [ref=f7e734]
+                      - gridcell "No contributions on November 14th." [ref=f7e735]
+                      - gridcell "No contributions on November 21st." [ref=f7e736]
+                      - gridcell "No contributions on November 28th." [ref=f7e737]
+                      - gridcell "No contributions on December 5th." [ref=f7e738]
+                      - gridcell "No contributions on December 12th." [ref=f7e739]
+                      - gridcell "No contributions on December 19th." [ref=f7e740]
+                      - gridcell "No contributions on December 26th." [ref=f7e741]
+                      - gridcell "No contributions on January 2nd." [ref=f7e742]
+                      - gridcell "No contributions on January 9th." [ref=f7e743]
+                      - gridcell "No contributions on January 16th." [ref=f7e744]
+                      - gridcell "No contributions on January 23rd." [ref=f7e745]
+                      - gridcell "No contributions on January 30th." [ref=f7e746]
+                      - gridcell "No contributions on February 6th." [ref=f7e747]
+                      - gridcell "No contributions on February 13th." [ref=f7e748]
+                      - gridcell "No contributions on February 20th." [ref=f7e749]
+                      - gridcell "No contributions on February 27th." [ref=f7e750]
+                      - gridcell "No contributions on March 6th." [ref=f7e751]
+                      - gridcell "No contributions on March 13th." [ref=f7e752]
+                      - gridcell "No contributions on March 20th." [ref=f7e753]
+                      - gridcell "No contributions on March 27th." [ref=f7e754]
+                      - gridcell "No contributions on April 3rd." [ref=f7e755]
+                      - gridcell "No contributions on April 10th." [ref=f7e756]
+                      - gridcell "No contributions on April 17th." [ref=f7e757]
+                      - gridcell "No contributions on April 24th." [ref=f7e758]
+                      - gridcell "No contributions on May 1st." [ref=f7e759]
+                      - gridcell "No contributions on May 8th." [ref=f7e760]
+                      - gridcell "No contributions on May 15th." [ref=f7e761]
+                      - gridcell "No contributions on May 22nd." [ref=f7e762]
+                      - gridcell "No contributions on May 29th." [ref=f7e763]
+                      - gridcell "No contributions on June 5th." [ref=f7e764]
+                      - gridcell "No contributions on June 12th." [ref=f7e765]
+                      - gridcell "No contributions on June 19th." [ref=f7e766]
+                      - gridcell "No contributions on June 26th." [ref=f7e767]
+                      - gridcell "No contributions on July 3rd." [ref=f7e768]
+                      - gridcell "No contributions on July 10th." [ref=f7e769]
+                      - gridcell "No contributions on July 17th." [ref=f7e770]
+                      - gridcell "No contributions on July 24th." [ref=f7e771]
+                      - gridcell "No contributions on July 31st." [ref=f7e772]
+                      - gridcell "No contributions on August 7th." [ref=f7e773]
+                      - gridcell "No contributions on August 14th." [ref=f7e774]
+                      - gridcell "No contributions on August 21st." [ref=f7e775]
+                      - gridcell "2 contributions on August 28th." [ref=f7e776]
+                      - gridcell "No contributions on September 4th." [ref=f7e777]
+                      - gridcell "No contributions on September 11th." [ref=f7e778]
+                      - gridcell "No contributions on September 18th." [ref=f7e779]
+                      - gridcell "No contributions on September 25th." [ref=f7e780]
+                      - gridcell "51 contributions on October 2nd." [ref=f7e781]
+                    - row [ref=f7e782]:
+                      - gridcell "Saturday" [ref=f7e783]:
+                        - generic [aria-hidden] [ref=f7e785]: Sat
+                      - gridcell "No contributions on October 4th." [ref=f7e786]
+                      - gridcell "No contributions on October 11th." [ref=f7e787]
+                      - gridcell "No contributions on October 18th." [ref=f7e788]
+                      - gridcell "No contributions on October 25th." [ref=f7e789]
+                      - gridcell "No contributions on November 1st." [ref=f7e790]
+                      - gridcell "No contributions on November 8th." [ref=f7e791]
+                      - gridcell "No contributions on November 15th." [ref=f7e792]
+                      - gridcell "No contributions on November 22nd." [ref=f7e793]
+                      - gridcell "No contributions on November 29th." [ref=f7e794]
+                      - gridcell "No contributions on December 6th." [ref=f7e795]
+                      - gridcell "No contributions on December 13th." [ref=f7e796]
+                      - gridcell "No contributions on December 20th." [ref=f7e797]
+                      - gridcell "No contributions on December 27th." [ref=f7e798]
+                      - gridcell "No contributions on January 3rd." [ref=f7e799]
+                      - gridcell "No contributions on January 10th." [ref=f7e800]
+                      - gridcell "No contributions on January 17th." [ref=f7e801]
+                      - gridcell "No contributions on January 24th." [ref=f7e802]
+                      - gridcell "No contributions on January 31st." [ref=f7e803]
+                      - gridcell "No contributions on February 7th." [ref=f7e804]
+                      - gridcell "No contributions on February 14th." [ref=f7e805]
+                      - gridcell "No contributions on February 21st." [ref=f7e806]
+                      - gridcell "No contributions on February 28th." [ref=f7e807]
+                      - gridcell "No contributions on March 7th." [ref=f7e808]
+                      - gridcell "No contributions on March 14th." [ref=f7e809]
+                      - gridcell "No contributions on March 21st." [ref=f7e810]
+                      - gridcell "No contributions on March 28th." [ref=f7e811]
+                      - gridcell "No contributions on April 4th." [ref=f7e812]
+                      - gridcell "No contributions on April 11th." [ref=f7e813]
+                      - gridcell "No contributions on April 18th." [ref=f7e814]
+                      - gridcell "No contributions on April 25th." [ref=f7e815]
+                      - gridcell "No contributions on May 2nd." [ref=f7e816]
+                      - gridcell "No contributions on May 9th." [ref=f7e817]
+                      - gridcell "No contributions on May 16th." [ref=f7e818]
+                      - gridcell "No contributions on May 23rd." [ref=f7e819]
+                      - gridcell "No contributions on May 30th." [ref=f7e820]
+                      - gridcell "No contributions on June 6th." [ref=f7e821]
+                      - gridcell "No contributions on June 13th." [ref=f7e822]
+                      - gridcell "No contributions on June 20th." [ref=f7e823]
+                      - gridcell "No contributions on June 27th." [ref=f7e824]
+                      - gridcell "No contributions on July 4th." [ref=f7e825]
+                      - gridcell "No contributions on July 11th." [ref=f7e826]
+                      - gridcell "No contributions on July 18th." [ref=f7e827]
+                      - gridcell "No contributions on July 25th." [ref=f7e828]
+                      - gridcell "No contributions on August 1st." [ref=f7e829]
+                      - gridcell "No contributions on August 8th." [ref=f7e830]
+                      - gridcell "No contributions on August 15th." [ref=f7e831]
+                      - gridcell "No contributions on August 22nd." [ref=f7e832]
+                      - gridcell "2 contributions on August 29th." [ref=f7e833]
+                      - gridcell "No contributions on September 5th." [ref=f7e834]
+                      - gridcell "No contributions on September 12th." [ref=f7e835]
+                      - gridcell "No contributions on September 19th." [ref=f7e836]
+                      - gridcell "No contributions on September 26th." [ref=f7e837]
+                      - gridcell [ref=f7e838]
+                - generic [ref=f7e839]:
+                  - link "Learn how we count contributions" [ref=f7e841] [cursor=pointer]:
+                    - /url: https://docs.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile
+                  - generic [ref=f7e842]:
+                    - generic [ref=f7e843]: Less
+                    - generic [ref=f7e844]: No contributions.
+                    - generic [ref=f7e846]: Low contributions.
+                    - generic [ref=f7e848]: Medium-low contributions.
+                    - generic [ref=f7e850]: Medium-high contributions.
+                    - generic [ref=f7e852]: High contributions.
+                    - generic [ref=f7e854]: More
+            - generic [ref=f7e855]:
+              - heading "Contribution activity" [level=2] [ref=f7e856]
+              - generic [ref=f7e858]:
+                - heading "October 2026" [level=3] [ref=f7e859]
+                - group [ref=f7e867]:
+                  - button [ref=f7e868] [cursor=pointer]
+                - group [ref=f7e879]:
+                  - button "Created 9 repositories" [ref=f7e880] [cursor=pointer]
+              - generic [ref=f7e886]:
+                - generic: Loading
+                - button "Show more activity" [ref=f7e888] [cursor=pointer]
+                - paragraph [ref=f7e889]:
+                  - text: Seeing something unexpected? Take a look at the
+                  - link "GitHub profile guide" [ref=f7e890] [cursor=pointer]:
+                    - /url: https://docs.github.com/categories/setting-up-and-managing-your-github-profile
+                  - text: .
+          - list [ref=f7e893]:
+            - listitem [ref=f7e894]:
+              - link "Contribution activity in 2026, 1 of 2" [ref=f7e895] [cursor=pointer]:
+                - /url: /puzzledicon?tab=overview&from=2026-10-01&to=2026-10-02
+                - text: "2026"
+            - listitem [ref=f7e896]:
+              - link "Contribution activity in 2025, 2 of 2" [ref=f7e897] [cursor=pointer]:
+                - /url: /puzzledicon?tab=overview&from=2025-12-01&to=2025-12-31
+                - text: "2025"
+  - contentinfo [ref=f7e350]:
+    - heading "Footer" [level=2] [ref=f7e351]
+    - generic [ref=f7e352]:
+      - generic [ref=f7e353]:
+        - link "GitHub Homepage" [ref=f7e354] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f7e357]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f7e358]:
+        - heading "Footer navigation" [level=3] [ref=f7e359]
+        - list "Footer navigation" [ref=f7e360]:
+          - listitem [ref=f7e361]:
+            - link "Terms" [ref=f7e362] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f7e363]:
+            - link "Privacy" [ref=f7e364] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f7e365]:
+            - link "Security" [ref=f7e366] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f7e367]:
+            - link "Status" [ref=f7e368] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f7e369]:
+            - link "Community" [ref=f7e370] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f7e371]:
+            - link "Docs" [ref=f7e372] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f7e373]:
+            - link "Contact" [ref=f7e374] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f7e375]:
+            - button "Manage cookies" [ref=f7e377] [cursor=pointer]
+          - listitem [ref=f7e378]:
+            - button "Do not share my personal information" [ref=f7e380] [cursor=pointer]

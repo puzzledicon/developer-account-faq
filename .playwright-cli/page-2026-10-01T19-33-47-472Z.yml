@@ -1,0 +1,35 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - link "Skip to content" [ref=f2e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=f2e6]
+  - main [ref=f2e9]:
+    - generic [ref=f2e10]:
+      - generic [ref=f2e19]:
+        - heading "Two-factor authentication" [level=1] [ref=f2e20]
+        - paragraph [ref=f2e21]: Enter the code from your two-factor authentication app or browser extension below.
+      - generic [ref=f2e22]:
+        - generic [ref=f2e24]:
+          - generic [ref=f2e25]: Enter the verification code
+          - textbox "Enter the verification code" [active] [ref=f2e26]:
+            - /placeholder: XXXXXX
+          - button "Verify" [ref=f2e27] [cursor=pointer]
+        - button "More options" [ref=f2e30] [cursor=pointer]
+  - contentinfo [ref=f2e36]:
+    - list [ref=f2e37]:
+      - listitem [ref=f2e38]:
+        - link "Terms" [ref=f2e39] [cursor=pointer]:
+          - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - listitem [ref=f2e40]:
+        - link "Privacy" [ref=f2e41] [cursor=pointer]:
+          - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - listitem [ref=f2e42]:
+        - link "Docs" [ref=f2e43] [cursor=pointer]:
+          - /url: https://docs.github.com
+      - listitem [ref=f2e44]:
+        - link "Contact GitHub Support" [ref=f2e45] [cursor=pointer]:
+          - /url: https://support.github.com
+      - listitem [ref=f2e46]:
+        - button "Manage cookies" [ref=f2e48] [cursor=pointer]
+      - listitem [ref=f2e49]:
+        - button "Do not share my personal information" [ref=f2e51] [cursor=pointer]

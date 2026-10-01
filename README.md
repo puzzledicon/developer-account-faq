@@ -42,6 +42,10 @@
 - [Play Console 帮助中心](https://support.google.com/googleplay/android-developer)
 - [Apple Developer Program](https://developer.apple.com/programs/)
 
+## 咨询协助
+
+注册、验证、内购开通等问题可通过 Telegram 咨询：**[@M6999](https://t.me/M6999)**
+
 ## 延伸阅读
 
 - [playconsoleacc.com](https://playconsoleacc.com/)  
