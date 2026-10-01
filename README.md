@@ -1,6 +1,6 @@
 # 开发者账号 FAQ（注册 / 内购）
 
-集中回答如何注册、费用多少、如何开通内购等高频实操问题。
+集中回答如何注册谷歌/苹果开发者账号、费用多少、国内注册要点、如何开通内购，以及注册前要准备哪些材料。
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-2ea44f?logo=github)](https://puzzledicon.github.io/developer-account-faq/)
 
